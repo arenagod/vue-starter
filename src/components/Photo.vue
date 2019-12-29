@@ -1,7 +1,7 @@
 <template>
 <div class="">
-<div v-for="photo in photos" v-bind:key="photo.id" class="tile is-4">
-    <figure class="image is-360*360">
+<div v-for="photo in photos" v-bind:key="photo.id" class="is-6 columns is-vcentered">
+    <figure class="image">
 
 <img v-bind:src="photo.urls.regular">
 <!-- {{ photos }} -->
@@ -13,7 +13,7 @@
 
 <script>
 import axios from 'axios'
-let URL = "https://api.unsplash.com/search/photos?query=cat&client_id=24f219760e48132fad4e804599f0212610efcba3bb53e4d9a9e15d8673053f7d"  
+let URL = "https://api.unsplash.com/search/photos?query=lake&client_id=24f219760e48132fad4e804599f0212610efcba3bb53e4d9a9e15d8673053f7d"  
 
 export default {
     data() {
