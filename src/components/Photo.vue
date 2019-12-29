@@ -1,11 +1,11 @@
 <template>
-<div class="">
-    <div v-for="photo in photos" v-bind:key="photo.id" class="is-6 columns is-vcentered">
-        <figure class="image">
-            <img v-bind:src="photo.urls.regular">
-        </figure>
+    <div class="">
+        <div v-for="photo in photos" v-bind:key="photo.id" class="is-6 columns is-vcentered">
+            <figure class="image">
+                <img v-bind:src="photo.urls.regular">
+            </figure>
+        </div>
     </div>
-</div>
 </template>
 
 <script>
