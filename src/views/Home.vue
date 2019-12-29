@@ -6,6 +6,7 @@
 
 <script>
 import Photo from '@/components/Photo.vue'
+
 export default {
   name: 'home',
   components: {

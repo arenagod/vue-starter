@@ -1,11 +1,11 @@
 <template>
-<div>
-    <Header/>
-    <section>
-    <router-view/>
-    </section>
-    <Footer/>
-</div>
+    <div>
+        <Header/>
+            <section>
+                <router-view/>
+            </section>
+        <Footer/>
+    </div>
 </template>
 
 <script>
