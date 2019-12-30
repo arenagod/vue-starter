@@ -10,7 +10,7 @@
 
 <script>
 import axios from 'axios'
-let URL = "https://api.unsplash.com/search/photos?query=lake&client_id=24f219760e48132fad4e804599f0212610efcba3bb53e4d9a9e15d8673053f7d"  
+let URL = "https://api.unsplash.com/search/photos?query=wow&client_id=24f219760e48132fad4e804599f0212610efcba3bb53e4d9a9e15d8673053f7d"  
 
 export default {
     data() {
