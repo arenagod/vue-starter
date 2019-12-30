@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style scoped>
-
+:active {
+  text-align: center;
+}
 </style>
